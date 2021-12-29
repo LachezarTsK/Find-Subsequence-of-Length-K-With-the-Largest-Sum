@@ -21,7 +21,7 @@ class MinHeap {
             let temp = this.list[index];
             this.list[index] = this.list[min];
             this.list[min] = temp;
-            this.minHeapify(index);
+            this.minHeapify(min);
         }
 
     }
